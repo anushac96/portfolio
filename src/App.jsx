@@ -12,6 +12,7 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
       <Header />
       <Hero />
+      {/* test comment */}
       {/* <Projects /> */}  //TODO: Uncomment when Projects component is ready
       {/* <Skills /> */}  //TODO: Uncomment when Skills component is ready
       {/* <Experience /> */}  //TODO: Uncomment when Experience component is ready
