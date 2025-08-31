@@ -22,13 +22,3 @@ function App() {
 }
 
 export default App;
-
-
-// function App() {
-//   return (
-//     <div className="text-white p-10">
-//       Hello World
-//     </div>
-//   );
-// }
-// export default App;
