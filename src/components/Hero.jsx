@@ -60,17 +60,24 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
+              
+              {/* 
+              will be in boxed format
               <a 
                 href="#projects" 
                 className="btn-primary justify-center sm:justify-start"
-              >
+              > */
+              }
+              <a href="#projects" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-all transform hover:scale-105 flex items-center justify-center sm:justify-start">
                 View Projects <ChevronRight className="ml-2 w-4 h-4" />
               </a>
+              {/* will be in boxed format
               <a 
                 href={PERSONAL_INFO.resume}
                 className="btn-secondary justify-center sm:justify-start"
                 download
-              >
+              > */}
+              <a href="/resume.pdf" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-all transform hover:scale-105 flex items-center justify-center sm:justify-start" download>
                 <Download className="mr-2 w-4 h-4" />
                 Download Resume
               </a>
@@ -111,7 +118,7 @@ const Hero = () => {
                   {animatedStats.experience}+
                 </div>
                 <div className="text-slate-300">Years Experience</div>
-                <div className="text-xs text-slate-500 mt-1">Senior Engineering</div>
+                <div className="text-xs text-slate-500 mt-1">Software Engineering</div>
               </div>
               
               <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-slate-600 transition-all">

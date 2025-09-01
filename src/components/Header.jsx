@@ -25,7 +25,7 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="text-xl font-bold">
-            <span className="gradient-text">Senior Engineer</span>
+            <span className="gradient-text">Senior Full Stack Software Engineer</span>
           </div>
 
           {/* Desktop Navigation */}

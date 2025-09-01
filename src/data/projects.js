@@ -6,7 +6,7 @@ export const projects = [
     description: "End-to-end distributed machine learning platform that reduces training time by 75% through custom parameter server architecture and fault-tolerant scaling.",
     image: "/projects/distributedml-demo.png",
     demoUrl: "https://distributed-ml-demo.com",
-    githubUrl: "https://github.com/yourname/distributed-ml",
+    githubUrl: "https://github.com/anushahadagali/distributed-ml",
     blogUrl: "/blog/building-distributed-ml-platform",
     featured: true,
     status: "Production",
@@ -46,7 +46,7 @@ export const projects = [
     description: "Ultra-low latency event processing engine handling 2M+ events/second with custom lock-free algorithms and exactly-once processing guarantees.",
     image: "/projects/streamforge-demo.png",
     demoUrl: "https://streamforge-demo.com",
-    githubUrl: "https://github.com/yourname/streamforge",
+    githubUrl: "https://github.com/anushahadagali/streamforge",
     blogUrl: "/blog/achieving-sub-50ms-latency",
     featured: true,
     status: "Production",
@@ -86,7 +86,7 @@ export const projects = [
     description: "Advanced code analysis platform using custom transformer models and graph neural networks to provide intelligent insights and reduce code review time by 60%.",
     image: "/projects/codeintel-demo.png",
     demoUrl: "https://codeintel-demo.com",
-    githubUrl: "https://github.com/yourname/codeintel", 
+    githubUrl: "https://github.com/anushahadagali/codeintel", 
     blogUrl: "/blog/fine-tuning-transformers-for-code",
     featured: true,
     status: "Beta",
@@ -126,18 +126,18 @@ export const sideProjects = [
     title: "Distributed Hash Table Implementation",
     description: "Custom DHT with consistent hashing and fault tolerance",
     tech: ["Go", "Raft Consensus"],
-    githubUrl: "https://github.com/yourname/distributed-hash-table"
+    githubUrl: "https://github.com/anushahadagali/distributed-hash-table"
   },
   {
     title: "Transformer from Scratch",
     description: "Complete transformer implementation with training pipeline",
     tech: ["Python", "PyTorch", "NumPy"],
-    githubUrl: "https://github.com/yourname/transformer-from-scratch"
+    githubUrl: "https://github.com/anushahadagali/transformer-from-scratch"
   },
   {
     title: "High-Performance HTTP Server",
     description: "Custom HTTP server with epoll and zero-copy techniques",
     tech: ["C++", "Linux", "Benchmarking"],
-    githubUrl: "https://github.com/yourname/http-server"
+    githubUrl: "https://github.com/anushahadagali/http-server"
   }
 ];
