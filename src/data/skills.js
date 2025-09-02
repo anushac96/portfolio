@@ -88,7 +88,7 @@ export const skillCategories = [
     id: "data-systems",
     title: "Data Systems",
     icon: Server,
-    color: "indigo",
+    color: "lightBlue",
     skills: [
       { name: "PostgreSQL", level: 90, experience: "5+ years" },
       { name: "Redis", level: 88, experience: "4+ years" },

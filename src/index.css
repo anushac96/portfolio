@@ -370,6 +370,18 @@ body {
   color: rgb(244 114 182);
 }
 
+.text-green-400 {
+  color: rgb(96, 250, 155);
+}
+
+.text-lightBlue-400 {
+  color: rgb(4, 187, 243);
+}
+
+.text-yellow-400 {
+  color: rgb(249, 241, 5);
+}
+
 .text-slate-300 {
   color: rgb(203 213 225);
 }

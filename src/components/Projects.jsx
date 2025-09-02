@@ -49,7 +49,7 @@ const Projects = () => {
                 <div className="flex space-x-4">
                   <a 
                     href={project.demoUrl} 
-                    className="text-blue-300 hover:text-blue-200 flex items-center text-sm font-medium"
+                    className="text-slate-300 hover:text-slate-100 flex items-center text-sm font-medium"
                     onClick={(e) => e.stopPropagation()} // Prevent card click when clicking links
                   >
                     <ExternalLink className="w-4 h-4 mr-1" /> Live Demo
@@ -64,14 +64,14 @@ const Projects = () => {
                 </div>
                 
                 {/* Click indicator */}
-                <div className="flex items-center justify-center mt-4 pt-4 border-t border-slate-700">
+                {/* <div className="flex items-center justify-center mt-4 pt-4 border-t border-slate-700">
                   <span className="text-slate-500 text-sm flex items-center">
                     {activeProject === index ? 'Click to hide details' : 'Click to view details'}
                     <ChevronRight className={`w-4 h-4 ml-1 transition-transform ${
                       activeProject === index ? 'rotate-90' : ''
                     }`} />
                   </span>
-                </div>
+                </div> */}
               </div>
 
               {/* Project Details - Show only when active */}
@@ -160,7 +160,7 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-                <a href={project.githubUrl} className="text-blue-300 hover:text-blue-200 flex items-center text-sm font-medium">
+                <a href={project.githubUrl} className="text-slate-300 hover:text-slate-100 flex items-center text-sm font-medium">
                   <Github className="w-4 h-4 mr-1" /> View Code
                 </a>
               </div>

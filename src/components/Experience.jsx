@@ -19,8 +19,8 @@ const Experience = () => {
       onClick={() => onClick(id)}
       className={`flex items-center px-6 py-3 rounded-lg font-medium transition-all ${
         active
-          ? "bg-blue-600 text-white shadow-lg"
-          : "text-slate-300 hover:text-slate-100 hover:bg-slate-700"
+          ? "bg-blue-600 text-slate-400 shadow-lg"
+          : "text-slate-500 hover:text-slate-300 hover:bg-slate-700"
       }`}
     >
       <Icon className="w-5 h-5 mr-2" />
@@ -75,8 +75,8 @@ const Experience = () => {
               >
                 <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-6">
                   <div className="flex-1">
-                    <div className="flex items-center mb-2">
-                      <h3 className="text-xl font-bold text-white mr-4">
+                    <div className="flex flex-nowrap items-center justify-start mb-2 gap-2 max-w-md overflow-x-auto">
+                      <h3 className="text-xl font-bold text-white mr-2">
                         {job.position}
                       </h3>
                       <span className="bg-slate-600/30 text-slate-200 border border-slate-500/40 px-3 py-1 rounded-full text-sm">
@@ -153,8 +153,8 @@ const Experience = () => {
                       ))}
                     </div> */}
                     <p className="text-slate-300 text-sm">
-  {job.technologies.join(', ')}
-</p>
+                      {job.technologies.join(", ")}
+                    </p>
                   </div>
                 </div>
               </div>
