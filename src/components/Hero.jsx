@@ -13,8 +13,8 @@ const Hero = () => {
     const timer = setTimeout(() => {
       setAnimatedStats({
         experience: 4,
-        projects: 15, // TODO: Update with actual number of projects
-        contributions: 47 //TODO: Update with actual number of contributions
+        // projects: 15, // TODO: Update with actual number of projects
+        // contributions: 47 //TODO: Update with actual number of contributions
       });
     }, 500);
     return () => clearTimeout(timer);
@@ -121,22 +121,23 @@ const Hero = () => {
                 <div className="text-xs text-slate-500 mt-1">Software Engineering</div>
               </div>
               
-              <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-slate-600 transition-all">
+              {/* TODO: Uncomment and update projects count when ready */}
+              {/* <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-slate-600 transition-all">
                 <div className="text-3xl font-bold text-purple-400 mb-2">
                   {animatedStats.projects}+
                 </div>
                 <div className="text-slate-300">Projects Built</div>
                 <div className="text-xs text-slate-500 mt-1">Production Systems</div>
-              </div>
-              
-              <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-slate-600 transition-all col-span-2">
+              </div> */}
+              {/* TODO: Uncomment and Open Source Contributions count when ready */}
+              {/* <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-slate-600 transition-all col-span-2">
                 <div className="text-3xl font-bold text-pink-400 mb-2">
                   {animatedStats.contributions}+
                 </div>
                 <div className="text-slate-300">Open Source Contributions</div>
                 <div className="text-xs text-slate-500 mt-1">Community Impact</div>
-              </div>
-            </div>
+              </div>*/}
+            </div> 
 
             {/* Floating Elements */}
             <div className="relative mt-8">

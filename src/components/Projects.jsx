@@ -62,16 +62,6 @@ const Projects = () => {
                     <Github className="w-4 h-4 mr-1" /> Source Code
                   </a>
                 </div>
-                
-                {/* Click indicator */}
-                {/* <div className="flex items-center justify-center mt-4 pt-4 border-t border-slate-700">
-                  <span className="text-slate-500 text-sm flex items-center">
-                    {activeProject === index ? 'Click to hide details' : 'Click to view details'}
-                    <ChevronRight className={`w-4 h-4 ml-1 transition-transform ${
-                      activeProject === index ? 'rotate-90' : ''
-                    }`} />
-                  </span>
-                </div> */}
               </div>
 
               {/* Project Details - Show only when active */}
@@ -145,8 +135,9 @@ const Projects = () => {
           ))}
         </div>
 
+        {/* TODO: not yet worked */}
         {/* Side Projects */}
-        <div className="mt-16">
+        {/* <div className="mt-16">
           <h3 className="text-2xl font-bold mb-8 text-center text-white">Side Projects & Experiments</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {sideProjects.map((project, index) => (
@@ -166,7 +157,7 @@ const Projects = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

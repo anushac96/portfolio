@@ -62,7 +62,8 @@ const Skills = () => {
                       <span className="text-white font-medium">{skill.name}</span>
                       <div className="flex items-center space-x-2">
                         <span className="text-slate-400 text-sm">{skill.experience}</span>
-                        <span className="text-slate-300 text-sm">{skill.level}%</span>
+                        {/* TODO: uncomment skill level */}
+                        {/* <span className="text-slate-300 text-sm">{skill.level}%</span> */}
                       </div>
                     </div>
                     <div className="w-full bg-slate-700 rounded-full h-2">
@@ -84,16 +85,18 @@ const Skills = () => {
             </div>
 
             <div>
-              <h4 className="text-lg font-semibold mb-4 text-slate-300">Applied In Projects</h4>
+              {/* TODO: Uncomment when I get to know in which project the these technologies are used */}
+              {/* <h4 className="text-lg font-semibold mb-4 text-slate-300">Applied In Projects</h4>
               <div className="flex flex-wrap gap-2 mb-6">
                 {skillCategories[activeCategory].projects.map((project, index) => (
                   <span key={index} className="bg-slate-700 px-3 py-1 rounded-lg text-sm">
                     {project}
                   </span>
                 ))}
-              </div>
+              </div> */}
 
-              {skillCategories[activeCategory].certifications.length > 0 && (
+              {/* TODO: Uncomment when I get to know in which certificate the these technologies are used */}
+              {/* {skillCategories[activeCategory].certifications.length > 0 && (
                 <>
                   <h4 className="text-lg font-semibold mb-4 text-slate-300">Certifications</h4>
                   <div className="space-y-2 mb-6">
@@ -105,7 +108,7 @@ const Skills = () => {
                     ))}
                   </div>
                 </>
-              )}
+              )} */}
 
               {/* Tools Section */}
               <h4 className="text-lg font-semibold mb-4 text-slate-300">Development Tools</h4>

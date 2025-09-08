@@ -12,7 +12,7 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
       <Header />
       <Hero />
-      <Projects />
+      {/* <Projects />  TODO: Uncomment when ready */}
       <Skills />
       <Experience />
       <Contact />
