@@ -28,7 +28,7 @@ export const NAVIGATION_ITEMS = [
 
 export const META_DATA = {
   title: "Senior Full Stack Software Engineer | Distributed Systems & AI/ML",
-  description: "Senior Full Stack Software Engineer with 6+ years of experience building scalable distributed systems and AI/ML platforms. Specialized in high-performance computing and cloud architecture.",
+  description: "Senior Full Stack Software Engineer with 4+ years of experience building scalable distributed systems and AI/ML platforms. Specialized in high-performance computing and cloud architecture.",
   keywords: "senior full stack software engineer, distributed systems, machine learning, AWS, Python, Java, system design",
   author: "Anusha Hadagali",
   ogImage: "/og-image.png"  //TODO: Update your Open Graph image path

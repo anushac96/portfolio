@@ -35,7 +35,7 @@ const Experience = () => {
           Professional Journey
         </h2>
         <p className="text-slate-400 text-center mb-16 max-w-2xl mx-auto">
-          6+ years of experience building scalable systems, leading technical
+          4+ years of experience building scalable systems, leading technical
           initiatives, and delivering high-impact solutions across healthcare,
           e-commerce, and enterprise domains.
         </p>
@@ -212,7 +212,7 @@ const Experience = () => {
                   </div>
 
                   <div>
-                    <h4 className="text-lg font-semibold mb-4 text-purple-400">
+                    {/* <h4 className="text-lg font-semibold mb-4 text-purple-400">
                       Notable Projects
                     </h4>
                     <div className="space-y-4">
@@ -226,7 +226,7 @@ const Experience = () => {
                           </div>
                         </div>
                       ))}
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

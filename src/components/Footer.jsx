@@ -121,7 +121,7 @@
 //        <div className="mt-8 pt-6 border-t border-slate-700">
 //          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
 //            <div className="bg-slate-800/50 rounded-lg p-4">
-//              <div className="text-blue-400 font-bold text-lg">6+</div>
+//              <div className="text-blue-400 font-bold text-lg">4+</div>
 //              <div className="text-slate-400 text-xs">Years Experience</div>
 //            </div>
 //            <div className="bg-slate-800/50 rounded-lg p-4">
@@ -174,7 +174,7 @@ const Footer = () => {
   ];
 
   const achievements = [
-    { label: 'Years Experience', value: '6+', color: 'text-blue-400' },
+    { label: 'Years Experience', value: '4+', color: 'text-blue-400' },
     { label: 'Projects Delivered', value: '15+', color: 'text-purple-400' },
     { label: 'Team Members Led', value: '12+', color: 'text-green-400' },
     { label: 'Technologies Mastered', value: '25+', color: 'text-pink-400' }

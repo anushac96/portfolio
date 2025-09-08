@@ -12,19 +12,23 @@ export const workExperience = [
       "* Wrote thorough unit tests covering all Lambda function cases, maintaining over 80% code coverage",
       "* Designed a workflow orchestration setup using AWS Step Functions, Lambda Function, and DynamoDB to handle different workflow types and stages, streamlining clinical data processing",
       "* Built a robust file upload system with Excel parsing, validation pipeline, and AWS S3 integration using pre-signed URLs, implementing comprehensive error handling for participant data processing with healthcare applications",
-      "* Ensured collision-free workflow IDs under concurrent Lambda invocations, improving data integrity and system reliability"
+      "* Ensured collision-free workflow IDs under concurrent Lambda invocations, improving data integrity and system reliability.",
+      "* Engineered a secure, audible workflow engine for clinical data operations, designing DynamoDB models and Lambda logic to enforce owner-based permissions and trace every action, fulfilling regulatory requirements for data integrity, access control, and full auditability in clinical study workflows.",
+      "* Automated complex, multi-step, human-in-the-loop processes using Step Function and Lambda callbacks, ensuring reliable state recovery and milestone tracking, enabling study teams to progress tasks(e.g., approvals, unblinding verification) with minimal manual coordination and guaranteed process continuity.",
+      "* Built a real-time, type-safe frontend with React, Vite, and AppSync GraphQL, delivering instant feedback and actionable insights,empowering users to monitor workflow status, act on tasks, and access verification reports immediately, supporting faster decision-making and operational efficiency.",
+      "* Delivered infrastructure-as-code, automated CI/CD, and rigorous testing to support rapid, reliable releases and compliance-ensuring every deployment is repeatable, every change is validated, and the platform remains robust under evolving regulatory and business demands"
     ],
-    technologies: ["AWS Lambda", "Step Functions", "DynamoDB", "S3", "Python", "Healthcare Systems"],
+    technologies: ["AWS Lambda", "Step Functions", "DynamoDB", "S3", "AppSync(GraphQL", "Cognito", "Dyntastic", "Boto3", "Pytest", "Flake8", "Black", "Python", "React", "Vite", "Appsync GraphQL Client", "Jest/React Testing Library", "Terraform, GitHub Actions"],
     highlights: [
-      "80%+ code coverage maintained",
-      "Zero data collision incidents",
-      "Clinical trial data accuracy improved by 40%"
+      "Reduced unauthorized changes to zero, enabled complete audit trails for regulatory comploance, and impoved data integrity accross clinical workflows", 
+      "Cut process delays by 60%, enabled seamless handoffs, and ensure every workflow step is tracked and recoverable.",
+      "Accelerated user response time, improved operational efficiency, and empowered teams to make faster, data-driven decisions"
     ]
   },
   {
     company: "CS Optima Inc.", // Update with actual company
-    position: "Software Engineer",
-    duration: "2022 - 2025",
+    position: "Full Stack Software Engineer",
+    duration: "2024 - 2025",
     location: "Remote",
     type: "Full-time",
     logo: "/companies/company2.png",
@@ -44,10 +48,10 @@ export const workExperience = [
     ]
   },
   {
-    company: "Mphasis Pvt Ltd", // Update with actual company
-    position: "Software Developer",
-    duration: "2018 - 2020",
-    location: "Office Location",
+    company: "Mphasis Pvt Ltd",
+    position: "Software Engineer",
+    duration: "2020 - 2022",
+    location: "Bangalore, India",
     type: "Full-time",
     logo: "/companies/company1.png",
     website: "https://www.mphasis.com/home.html",
@@ -67,10 +71,10 @@ export const workExperience = [
     ]
   },
   {
-    company: "First Company", // Update with actual company
-    position: "Software Engineer Intern → Junior Developer",
-    duration: "2017 - 2018",
-    location: "Office Location",
+    company: "Mphasis Pvt Ltd",
+    position: "Associaate Software Engineer",
+    duration: "2019 - 2020",
+    location: "Bangalore, India",
     type: "Full-time",
     logo: "/companies/company0.png",
     website: "https://company0.com",
@@ -96,7 +100,7 @@ export const education = [
     school: "California State University, Fullerton",
     duration: "2022 - 2024",
     location: "Fullerton, CA",
-    gpa: "3.8/4.0", // TODO: Update with actual GPA if you want to include it
+    // gpa: "3.8/4.0", // TODO: Update with actual GPA if you want to include it
     coursework: [
       "Advanced Algorithms and Data Structures",
       "Distributed Systems",
@@ -105,17 +109,17 @@ export const education = [
       "Software Engineering",
       "Computer Networks"
     ],
-    projects: [
-      "Thesis: Optimizing Distributed Machine Learning Systems",
-      "Research on High-Performance Computing"
-    ]
+    // projects: [ //TODO: Update with actual projects
+    //   "Thesis: Optimizing Distributed Machine Learning Systems",
+    //   "Research on High-Performance Computing"
+    // ]
   },
   {
-    degree: "Bachelor of Engineering in Computer Science",  //TODO: Update with actual degree
-    school: "Your Previous University", // TODO: Update with actual university
-    duration: "2013 - 2017",
-    location: "Location",
-    gpa: "3.7/4.0",
+    degree: "Bachelor of Engineering in Computer Science",
+    school: "Visvesvaraya Technological University",
+    duration: "2014 - 2018",
+    location: "Bangalore, India",
+    // gpa: "3.7/4.0",
     coursework: [
       "Data Structures and Algorithms",
       "Object-Oriented Programming",
@@ -124,10 +128,10 @@ export const education = [
       "Operating Systems",
       "Software Engineering"
     ],
-    projects: [
-      "Final Year Project: Web-based Healthcare Management System",
-      "Internship Project: E-commerce Platform Development"
-    ]
+    // projects: [ // TODO: Update with actual projects
+    //   "Final Year Project: Web-based Healthcare Management System",
+    //   "Internship Project: E-commerce Platform Development"
+    // ]
   }
 ];
 

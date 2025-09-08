@@ -12,9 +12,9 @@ const Hero = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setAnimatedStats({
-        experience: 6,
-        projects: 15,
-        contributions: 47
+        experience: 4,
+        projects: 15, // TODO: Update with actual number of projects
+        contributions: 47 //TODO: Update with actual number of contributions
       });
     }, 500);
     return () => clearTimeout(timer);
@@ -46,7 +46,7 @@ const Hero = () => {
             <div className="mb-8 space-y-2">
               <div className="flex items-center text-slate-300">
                 <div className="w-2 h-2 bg-blue-400 rounded-full mr-3"></div>
-                <span>6+ years building scalable distributed systems</span>
+                <span>4+ years building scalable distributed systems</span>
               </div>
               <div className="flex items-center text-slate-300">
                 <div className="w-2 h-2 bg-purple-400 rounded-full mr-3"></div>
