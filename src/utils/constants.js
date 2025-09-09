@@ -19,11 +19,14 @@ export const SOCIAL_LINKS = {
 };
 
 export const NAVIGATION_ITEMS = [
-  { name: "Projects", href: "#projects" },
+  // { name: "Projects", href: "#projects" },
   { name: "Skills", href: "#skills" },
   { name: "Experience", href: "#experience" },
-  { name: "Blog", href: "#blog" },
-  { name: "Contact", href: "#contact" }
+  // { name: "Blog", href: "#blog" }, //TODO: Uncomment when blog section is added
+  { name: "Certifications", href: "#certifications" },
+  // { name: "Testimonials", href: "#testimonials" }, //TODO: Uncomment when testimonials section is added
+  // { name: "About", href: "#about" }, //TODO: Uncomment when about section is added
+  // { name: "Contact", href: "#contact" }  //TODO: Uncomment when contact section is added
 ];
 
 export const META_DATA = {
