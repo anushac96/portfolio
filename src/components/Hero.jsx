@@ -78,7 +78,7 @@ const Hero = () => {
                 className="btn-secondary justify-center sm:justify-start"
                 download
               > */}
-              <a href="/resume.pdf" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-all transform hover:scale-105 flex items-center justify-center sm:justify-start" download>
+              <a href={PERSONAL_INFO.resume} className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-all transform hover:scale-105 flex items-center justify-center sm:justify-start" download>
                 <Download className="mr-2 w-4 h-4" />
                 Download Resume
               </a>

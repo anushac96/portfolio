@@ -43,7 +43,7 @@ export const workExperience = [
     technologies: ["AWS SAM", "GraphQL", "React", "Material-UI", "Terraform", "CloudFormation"],
     highlights: [
       "SDTM compliance achieved",
-      "99.9% system uptime",
+      // "99.9% system uptime",
       "40% reduction in deployment time"
     ]
   },
@@ -66,7 +66,7 @@ export const workExperience = [
     technologies: ["Java 8", "Spring Boot", "Microservices", "CI/CD", "Splunk", "TDD"],
     highlights: [
       "Led team of 5 developers",
-      "50% improvement in code coverage",
+      "90%+ improvement in code coverage",
       "Mentored 3 junior engineers"
     ]
   },

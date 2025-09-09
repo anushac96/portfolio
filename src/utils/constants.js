@@ -7,7 +7,7 @@ export const PERSONAL_INFO = {
   linkedin: "https://linkedin.com/in/anusha-hadagali",
   github: "https://github.com/anushac96",
   portfolio: "https://yourname.dev",    //TODO: Update your portfolio URL
-  resume: "/resume.pdf"
+  resume: "../../../public/resumes/ANUSHA HADAGALI.pdf"
 };
 
 export const SOCIAL_LINKS = {
