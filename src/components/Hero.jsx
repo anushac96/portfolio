@@ -37,9 +37,10 @@ const Hero = () => {
               <span className="text-white">Engineer</span>
             </h1>
             <p className="text-xl text-slate-300 mb-8 leading-relaxed">
-              Specializing in <span className="text-blue-400 font-semibold">Distributed Systems</span> and{' '}
-              <span className="text-purple-400 font-semibold">AI/ML Infrastructure</span>. 
-              Building production systems that scale to millions of users with microsecond precision.
+              Specializing in <span className="text-blue-400 font-semibold">Distributed Systems </span> and{' '}
+              {/* TODO: add ai/ml once project is completed */}
+              {/* <span className="text-purple-400 font-semibold">AI/ML Infrastructure</span>.  */}
+              building production systems that scale to millions of users with microsecond precision.
             </p>
             
             {/* Key Highlights */}

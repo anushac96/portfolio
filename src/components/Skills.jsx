@@ -17,7 +17,7 @@ const Skills = () => {
   };
 
   return (
-    <section id="skills" className="py-20 px-6 bg-slate-800/50">
+    <section id="skills" className="py-20 px-8 bg-slate-800/50">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-4">Technical Expertise</h2>
         <p className="text-slate-400 text-center mb-16 max-w-2xl mx-auto">
@@ -47,7 +47,7 @@ const Skills = () => {
         </div>
 
         {/* Active Category Details */}
-        <div className="bg-slate-800 rounded-xl p-8 border border-slate-700">
+        <div className="bg-slate-800 rounded-xl p-8 border border-blue-800 shadow-lg">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div>
               <h3 className="text-2xl font-bold mb-6 flex items-center">

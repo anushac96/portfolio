@@ -13,7 +13,7 @@ export const PERSONAL_INFO = {
 export const SOCIAL_LINKS = {
   github: "https://github.com/anushac96",
   linkedin: "https://linkedin.com/in/anusha-hadagali",
-  email: "anushac111@gmail.com",
+  email: "anushac111@gmail.com",  //TODO: Update your email not working
   calendly: "https://calendly.com/yourname",    //TODO: Update your Calendly URL
   twitter: "https://twitter.com/yourname"   //TODO: Update your Twitter URL
 };

@@ -60,8 +60,9 @@ const Contact = () => {
           {/* Contact Info */}
           <div>
             <h3 className="text-2xl font-bold mb-8">Get In Touch</h3>
-
+            
             <div className="space-y-6 mb-8">
+              {/* email */}
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mr-4">
                   <Mail className="w-6 h-6 text-blue-400" />
@@ -77,7 +78,8 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="flex items-center">
+              {/* TODO: No need to give phone number */}
+              {/* <div className="flex items-center">
                 <div className="w-12 h-12 bg-purple-600/20 rounded-lg flex items-center justify-center mr-4">
                   <Phone className="w-6 h-6 text-purple-400" />
                 </div>
@@ -90,8 +92,9 @@ const Contact = () => {
                     {PERSONAL_INFO.phone}
                   </a>
                 </div>
-              </div>
+              </div> */}
 
+              {/* location */}
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-pink-600/20 rounded-lg flex items-center justify-center mr-4">
                   <MapPin className="w-6 h-6 text-pink-400" />
@@ -108,6 +111,7 @@ const Contact = () => {
               <h4 className="text-lg font-semibold mb-4 text-slate-300">
                 Connect With Me
               </h4>
+              
               <div className="flex space-x-4">
                 <a
                   href={SOCIAL_LINKS.github}
@@ -125,20 +129,29 @@ const Contact = () => {
                 >
                   <Linkedin className="w-6 h-6 text-white" />
                 </a>
-                <a
+                {/* <a
                   href={SOCIAL_LINKS.calendly}
                   className="w-12 h-12 bg-slate-700 rounded-lg flex items-center justify-center hover:bg-slate-600 transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Calendar className="w-6 h-6 text-white" />
+                </a> */}
+                <a
+                  href={SOCIAL_LINKS.email}
+                  className="w-12 h-12 bg-slate-700 rounded-lg flex items-center justify-center hover:bg-slate-600 transition-colors"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Mail className="w-6 h-6 text-white" />
                 </a>
               </div>
             </div>
 
             {/* Quick Actions */}
             <div className="space-y-4">
-              <a
+              {/* TODO: connect to Gmeet */}
+              {/* <a
                 href={SOCIAL_LINKS.calendly}
                 className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 py-3 rounded-lg font-semibold transition-all flex items-center justify-center"
                 target="_blank"
@@ -146,7 +159,7 @@ const Contact = () => {
               >
                 <Calendar className="w-5 h-5 mr-2" />
                 Schedule a Call
-              </a>
+              </a> */}
               <a
                 href={PERSONAL_INFO.resume}
                 className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 py-3 rounded-lg font-semibold transition-all flex items-center justify-center"

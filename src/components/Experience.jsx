@@ -29,7 +29,7 @@ const Experience = () => {
   );
 
   return (
-    <section id="experience" className="py-20 px-6">
+    <section id="experience" className="py-20 px-6 bg-slate-900">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-4">
           Professional Journey
@@ -71,7 +71,7 @@ const Experience = () => {
             {workExperience.map((job, index) => (
               <div
                 key={index}
-                className="bg-slate-800 rounded-xl p-8 border border-slate-700 hover:border-slate-600 transition-all"
+                className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl p-8 border border-slate-700 shadow-lg hover:border-slate-600 transition-all"
               >
                 <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-6">
                   <div className="flex-1">
@@ -168,7 +168,7 @@ const Experience = () => {
             {education.map((edu, index) => (
               <div
                 key={index}
-                className="bg-slate-800 rounded-xl p-8 border border-slate-700 hover:border-slate-600 transition-all"
+                className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl p-8 border border-slate-700 shadow-lg hover:border-slate-600 transition-all"
               >
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                   <div>
@@ -240,7 +240,7 @@ const Experience = () => {
             {certifications.map((cert, index) => (
               <div
                 key={index}
-                className="bg-slate-800 rounded-xl p-6 border border-slate-700 hover:border-slate-600 transition-all"
+                className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl p-8 border border-slate-700 shadow-lg hover:border-slate-600 transition-all"
               >
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-slate-700 rounded-lg flex items-center justify-center flex-shrink-0">

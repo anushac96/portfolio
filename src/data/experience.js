@@ -103,11 +103,9 @@ export const education = [
     // gpa: "3.8/4.0", // TODO: Update with actual GPA if you want to include it
     coursework: [
       "Advanced Algorithms and Data Structures",
-      "Distributed Systems",
-      "Machine Learning",
-      "Database Systems",
-      "Software Engineering",
-      "Computer Networks"
+      "System Design and Architecture",
+      "Artificial Intelligence and Machine Learning",
+      "Advanced Database Management"
     ],
     // projects: [ //TODO: Update with actual projects
     //   "Thesis: Optimizing Distributed Machine Learning Systems",
@@ -124,7 +122,6 @@ export const education = [
       "Data Structures and Algorithms",
       "Object-Oriented Programming",
       "Database Management Systems",
-      "Computer Networks",
       "Operating Systems",
       "Software Engineering"
     ],
@@ -137,31 +134,41 @@ export const education = [
 
 export const certifications = [
   {
-    name: "AWS Solutions Architect Professional",
+    name: "AWS Solutions Architect Associate",
     issuer: "Amazon Web Services",
+    date: "2024",
+    credentialId: "7dc1a53a0c0e4f68a4f47e9c47684752",
+    // TODO: Add badge image to UI
+    badge: "../../../public/certifications/AWS Certified Solutions Architect - Associate.png"
+    
+  },
+  {
+    name: "Azure AI Fundamentals",
+    issuer: "Microsoft",
     date: "2023",
-    credentialId: "AWS-SAP-2023-XXX",
-    badge: "/certifications/aws-sap.png"
-  },
-  {
-    name: "AWS Machine Learning Specialty",
-    issuer: "Amazon Web Services", 
-    date: "2023",
-    credentialId: "AWS-MLS-2023-XXX",
-    badge: "/certifications/aws-mls.png"
-  },
-  {
-    name: "Certified Kubernetes Administrator (CKA)",
-    issuer: "Cloud Native Computing Foundation",
-    date: "2022",
-    credentialId: "CKA-2022-XXX",
-    badge: "/certifications/cka.png"
-  },
-  {
-    name: "Oracle Certified Professional, Java SE",
-    issuer: "Oracle",
-    date: "2021",
-    credentialId: "OCP-JAVA-2021-XXX",
-    badge: "/certifications/oracle-java.png"
+    credentialId: "420F56B5D54320C1",
+    // TODO: Add badge image to UI
+    badge: "../../../public/certifications/microsoft-certified-fundamentals-badge.png" 
   }
+  // {
+  //   name: "AWS Machine Learning Specialty",
+  //   issuer: "Amazon Web Services", 
+  //   date: "2023",
+  //   credentialId: "AWS-MLS-2023-XXX",
+  //   badge: "/certifications/aws-mls.png"
+  // },
+  // {
+  //   name: "Certified Kubernetes Administrator (CKA)",
+  //   issuer: "Cloud Native Computing Foundation",
+  //   date: "2022",
+  //   credentialId: "CKA-2022-XXX",
+  //   badge: "/certifications/cka.png"
+  // },
+  // {
+  //   name: "Oracle Certified Professional, Java SE",
+  //   issuer: "Oracle",
+  //   date: "2021",
+  //   credentialId: "OCP-JAVA-2021-XXX",
+  //   badge: "/certifications/oracle-java.png"
+  // }
 ];
